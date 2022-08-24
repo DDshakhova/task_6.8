@@ -1,12 +1,7 @@
- 
-
-
-// const trafficLightEl = document.querySelectorAll('div');
+const trafficLightEl = document.querySelectorAll('div');
 const trafficLightEl1 = document.querySelector('#trafficLight1');
 const trafficLightEl2 = document.querySelector('#trafficLight2');
 const trafficLightEl3 = document.querySelector('#trafficLight3');
-
-const trafficLightEl = [trafficLightEl1, trafficLightEl2, trafficLightEl3];
 
 function init() {
     trafficLightEl1.style.background = ('black');
@@ -47,9 +42,4 @@ trafficLightEl.forEach(init);
 
 
 
-
-
-// trafficLightEl1.addEventListener('click', makeGreen);
-// trafficLightEl2.addEventListener('click', makeGreen);
-// trafficLightEl3.addEventListener('click', makeGreen);
 
