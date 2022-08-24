@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: rgba(255, 160, 122, 0.822);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+a {
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+a:visited {
+    color: lavenderblush;
+}
+
+a:hover {
+    color: rgb(218, 134, 106);
+}

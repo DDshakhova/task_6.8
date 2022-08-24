@@ -1,0 +1,9 @@
+p { 
+    border-bottom: 2px dashed darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+}
+code { 
+    background-color: rgb(146, 178, 219);
+    color: azure;
+    font-style: oblique;
+}

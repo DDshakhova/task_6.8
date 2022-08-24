@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+a { 
+    color: white;
+    padding: 30px 210px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+li:nth-child(odd) {
+    border: 1px solid grey;
+    background-color: rgb(166, 144, 211);
+    color: white;
+}
+
+li:nth-child(even) {
+    border: 1px solid rgb(166, 144, 211);
+    background-color: grey;
+    color: white;
+}
